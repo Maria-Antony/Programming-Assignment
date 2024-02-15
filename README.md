@@ -3,8 +3,8 @@ Structify-Take Home Submission
 
 Big O: O(n^2)
 
-
 def count_intersections(radians, identifiers):   
+    
     starts = []
     ends = []
     for i in range(len(radians)):
@@ -22,6 +22,7 @@ def count_intersections(radians, identifiers):
         if i!=len(starts)-1:
             if ends[i][0]>starts[i+1][0]>starts[i][0] and ends[i+1][0]>ends[i][0]:
                 intersections +=1
+                
                 
     return intersections
 
