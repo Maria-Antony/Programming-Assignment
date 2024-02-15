@@ -5,7 +5,6 @@ Big O: O(n^2)
 def count_intersections(radians, identifiers):
     starts = []
     ends = []
-    
     for i in range(len(radians)):
         if radians[i]<6.28 and radians[i]>0:
             if 's' in identifiers[i]:
