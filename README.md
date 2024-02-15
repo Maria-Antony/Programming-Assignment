@@ -1,8 +1,8 @@
 # Programming-Assignment
 Structify-Take Home Submission
 Big O: O(n^2)
-
 def count_intersections(radians, identifiers):
+    
     starts = []
     ends = []
     for i in range(len(radians)):
